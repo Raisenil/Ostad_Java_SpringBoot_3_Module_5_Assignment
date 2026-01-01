@@ -223,7 +223,7 @@ public class CartManager {
         addItem(noodles);
 
         System.out.println("Welcome to E-Commerce Shopping Cart Manager!");
-        System.out.println("Items available: Egg ($10), Milk ($20), Noodles ($30)");
+        System.out.println("Items available: Egg (৳10), Milk (৳20), Noodles (৳30)");
 
         boolean running = true;
 
@@ -235,7 +235,7 @@ public class CartManager {
                 case 1: // Add Egg to cart
                     if (!egg.isAddedToCart()) {
                         egg.setQuantity(1);
-                        System.out.println("✓ Egg added to cart!");
+                        System.out.println("+ Egg added to cart!");
                     } else {
                         System.out.println("Egg is already in your cart!");
                     }
@@ -244,7 +244,7 @@ public class CartManager {
                 case 2: // Add Milk to cart
                     if (!milk.isAddedToCart()) {
                         milk.setQuantity(1);
-                        System.out.println("✓ Milk added to cart!");
+                        System.out.println("+ Milk added to cart!");
                     } else {
                         System.out.println("Milk is already in your cart!");
                     }
@@ -253,7 +253,7 @@ public class CartManager {
                 case 3: // Add Noodles to cart
                     if (!noodles.isAddedToCart()) {
                         noodles.setQuantity(1);
-                        System.out.println("✓ Noodles added to cart!");
+                        System.out.println("+ Noodles added to cart!");
                     } else {
                         System.out.println("Noodles is already in your cart!");
                     }
